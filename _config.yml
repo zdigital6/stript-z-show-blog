@@ -1,0 +1,27 @@
+title: "Striptýz blog Praha"
+description: "Blog o striptýzu, erotických show a rozlučkách se svobodou v Praze"
+url: "https://gerard892.github.io"
+baseurl: ""
+
+permalink: /:title/
+markdown: kramdown
+theme: minima
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+google_site_verification: "" # volitelně vlož kód z Google Search Console
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Gerard"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
